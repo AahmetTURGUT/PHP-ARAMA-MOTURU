@@ -1,0 +1,38 @@
+.searchbox{
+   float: left;
+   margin-top: 10px;
+   margin-right: 59px;
+}
+input[type=text] {
+   float: left;
+   width: 170px;
+   -webkit-transition: width 0.4s ease-in-out;
+   transition: width 0.4s ease-in-out;
+   background-color: white;
+   background-image: url("images/searchicon.png");
+   background-position: 5px 3px;
+   background-repeat: no-repeat;
+   border: 2px solid #b8b8b8;
+   border-radius: 4px;
+   box-sizing: border-box;
+   font-size: 16px;
+   transition: width 0.4s ease-in-out;
+   overflow: visible;
+   padding-left: 32px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-right: 32px;
+}
+input[type=text]:focus {
+   width: 100%;
+}
+button, input, select, textarea {
+   font-family: inherit;
+   font-size: inherit;
+   font-stretch: inherit;
+   font-style: inherit;
+   font-variant: inherit;
+   font-weight: inherit;
+   line-height: inherit;
+   margin: 0;
+}
